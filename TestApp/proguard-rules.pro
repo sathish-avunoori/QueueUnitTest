@@ -1,0 +1,15 @@
+-keepattributes Exceptions,InnerClasses,Signature,EnclosingMethod,*Annotation*
+-dontwarn android.support.v4.**
+-dontwarn com.kofax.**
+-keep class com.kofax.** { *; }
+-dontwarn org.roboguice.**
+-keep class org.roboguice.** { *; }
+-dontwarn roboguice.**
+-keep class roboguice.** { *; }
+-dontwarn io.card.**
+-keep class io.card.** { *; }
+-keep class com.google.** { *; }
+-keep class com.squareup.otto.** { *; }
+-keep class de.greenrobot.** { *; }
+-keep class org.apache.http.** { *; }
+-dontwarn org.apache.http.**

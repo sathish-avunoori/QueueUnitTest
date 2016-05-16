@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="servertype_arrays">
+        <item>@string/str_kfs_server</item>
+        <item>@string/str_kta_server</item>
+        <item>@string/str_kta_azure_server</item>
+    </string-array>
+    <string-array name="capturetype_arrays">
+        <item>@string/str_document</item>
+        <item>@string/str_photo</item>
+    </string-array>
+
+</resources>

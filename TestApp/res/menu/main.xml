@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/existingDocs"
+         android:actionLayout="@layout/custom_countmenu_layout"
+        android:icon="@drawable/pending_items_icon"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_docs"/>
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/about_us"
+        android:showAsAction="always"
+        android:title="@string/str_help"/>
+
+</menu>

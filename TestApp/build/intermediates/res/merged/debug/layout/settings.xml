@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutbordergray" >
+
+            <TextView
+                android:id="@+id/accountinfo_textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:singleLine="true"
+                android:text="@string/str_account_info"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/usekofaxlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutborder" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="4"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="@string/str_use_kofax_server"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/usekofaxSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.1"
+                android:gravity="right"
+                android:textOff="OFF"
+                android:textOn="ON" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/serverhostnamelayout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutborder"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_server_host_name"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/serverhostnameeditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittextborder"
+                android:ems="11"
+                android:gravity="right"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                android:textCursorDrawable="@drawable/cursor">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/linearlayoutborder"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/servertypetext_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical|left"
+                    android:text="@string/str_server_type"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/servertype_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="3dp"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:ellipsize="end"
+                    android:gravity="right|center_vertical"
+                    android:singleLine="true"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/nicknamelayout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/linearlayoutborder" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_nickname"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/nicknameeditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextborder"
+                    android:ems="11"
+                    android:gravity="right"
+                    android:inputType="textPersonName"
+                    android:textSize="16sp"
+                    android:textCursorDrawable="@drawable/cursor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ssllayout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/linearlayoutborder"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.38"
+                    android:text="@string/str_ssl"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <Switch
+                    android:id="@+id/sslswitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right"
+                    android:textOff="OFF"
+                    android:textOn="ON" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/portlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/linearlayoutborder"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_port"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/porteditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextborder"
+                    android:ems="11"
+                    android:gravity="right"
+                    android:inputType="number"
+                    android:textSize="16sp"
+                    android:textCursorDrawable="@drawable/cursor"/>
+            </LinearLayout>
+            
+              
+            
+            <LinearLayout
+            android:id="@+id/anonymous_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutborder" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="4"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="@string/str_anonymous"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/anonymous_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.1"
+                android:gravity="right"
+                android:textOff="OFF"
+                android:textOn="ON" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/anonymous_layout_demo"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/linearlayoutborder" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="4"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="@string/str_anonymous"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <Switch
+                    android:id="@+id/anonymous_switch_demo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.1"
+                    android:gravity="right"
+                    android:textOff="OFF"
+                    android:textOn="ON" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/domainlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/linearlayoutborder"
+                android:visibility="gone" 
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:id="@+id/domainText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_domain"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/domaineditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextborder"
+                    android:ems="11"
+                    android:gravity="right"
+                    android:inputType="textPersonName"
+                    android:textSize="16sp"
+                    android:textCursorDrawable="@drawable/cursor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/usernamelayout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/linearlayoutborder"
+                android:focusableInTouchMode="true" >
+
+                <TextView
+                    android:id="@+id/usernameText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_user_name"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/usernameeditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextborder"
+                    android:ems="11"
+                    android:gravity="right"
+                    android:inputType="textPersonName"
+                    android:textSize="16sp"
+                    android:textCursorDrawable="@drawable/cursor"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/passwordlayout"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/linearlayoutborder" 
+                android:focusableInTouchMode="true">
+
+                <TextView
+                    android:id="@+id/passwordText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/str_password"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/passwordeditText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextborder"
+                    android:ems="11"
+                    android:gravity="right"
+                    android:inputType="textPassword"
+                    android:textSize="16sp"
+                    android:textCursorDrawable="@drawable/cursor"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/emaillayout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutborder" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_email"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/emaileditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittextborder"
+                android:ems="11"
+                android:gravity="right"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp"
+                android:textCursorDrawable="@drawable/cursor"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/advancedoptionslayout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutbordergray" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/str_advanced_options"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/arrow_right"
+                android:contentDescription="@string/str_empty" />
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/previewlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutborder"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="@string/str_preview_image"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <Switch
+                android:id="@+id/quickpreviewSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.2"
+                android:gravity="right"
+                android:textOff="OFF"
+                android:textOn="ON" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/manuallayout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutborder"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:lines="1"
+                android:text="@string/str_manual_capture_time"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+	            android:id="@+id/manual_capture_timer_edittext"
+	            android:layout_width="35dp"
+	            android:layout_height="wrap_content"
+	             android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/edittextborder"
+                android:ems="3"
+                android:gravity="right"                
+	            android:inputType="number"
+	            android:maxLength="3"
+                android:textCursorDrawable="@drawable/cursor">
+	        </EditText>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/urllayout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutborder"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/str_url"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/urleditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittextborder"
+                android:ems="11"
+                android:gravity="right"
+                android:inputType="textWebEditText"
+                android:lines="1"
+                android:textSize="16sp"
+                android:textCursorDrawable="@drawable/cursor">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/extralayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="15dp"
+            android:background="@drawable/linearlayoutborder"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/logoutlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/linearlayoutbordergray" >
+
+            <ImageView
+                android:id="@+id/logout_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/str_empty"
+                android:src="@drawable/login" />
+
+            <TextView
+                android:id="@+id/logout_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/lbl_login"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

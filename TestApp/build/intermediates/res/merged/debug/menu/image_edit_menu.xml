@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_rotate_image"
+        android:icon="@drawable/image_rotate_white"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_rotate"
+        android:visible="true"/>
+   <!--  <item
+        android:id="@+id/menu_revert_image"
+        android:icon="@drawable/image_revert_white"
+        android:showAsAction="always"
+        android:title="@string/str_revert"
+        android:visible="true"
+    /> -->
+    <item
+        android:id="@+id/menu_crop_image"
+        android:icon="@drawable/crop_icon_white"
+        android:showAsAction="always"
+        android:title="@string/str_crop"
+        android:visible="true"/>
+
+</menu>

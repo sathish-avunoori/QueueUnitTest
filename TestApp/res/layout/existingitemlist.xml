@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/noDocsMsgLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tvNoDocs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/str_no_documents"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/appbggray" />
+    </RelativeLayout>
+
+     <TextView
+        android:id="@+id/noInternetConnectionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="@string/str_no_internet_connection_available"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/itemList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/noInternetConnectionTextView" >
+    </ListView>
+
+    <View
+        android:id="@+id/editmodeitem_view"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/itemList"
+        android:layout_alignParentTop="true"
+        android:background="@color/light_blue"
+        android:visibility="gone" />
+
+</RelativeLayout>

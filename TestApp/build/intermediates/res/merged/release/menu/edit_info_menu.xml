@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_save_fields"
+         android:icon="@drawable/done_gray"
+         android:showAsAction="always"
+         android:title="@string/str_edit_info"
+         android:enabled="false" />
+
+</menu>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/drawable-normal-xxhdpi-v4/ic_flash_on.png",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/drawable-normal-xxhdpi/ic_flash_on.png"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/drawable-normal-xxhdpi-v4/ic_flash_off.png",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/drawable-normal-xxhdpi/ic_flash_off.png"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/drawable-normal-xxhdpi-v4/ic_flash_automatic.png",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/drawable-normal-xxhdpi/ic_flash_automatic.png"
+    }
+]

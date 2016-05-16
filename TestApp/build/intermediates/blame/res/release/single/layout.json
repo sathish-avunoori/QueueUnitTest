@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/capture.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/capture.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/license_agreement_screen.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/license_agreement_screen.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/editfields.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/editfields.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/settings.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/settings.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/servertypelist.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/servertypelist.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/camera_type_layout.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/camera_type_layout.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/documenttypelistrow.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/documenttypelistrow.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/itemdetailgridview.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/itemdetailgridview.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/infoscreen.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/infoscreen.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/image_edit_view.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/image_edit_view.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/giftcard_information.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/giftcard_information.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/quick_preview_layout.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/quick_preview_layout.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/existingitemlist.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/existingitemlist.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/submit_editlayout.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/submit_editlayout.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/helpkofaxlistrow.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/helpkofaxlistrow.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/editfields_textview.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/editfields_textview.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/servertype_listrow.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/servertype_listrow.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/giftcardinfocontainer.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/giftcardinfocontainer.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/itemdetail_grid_layout.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/itemdetail_grid_layout.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/editfields_switch.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/editfields_switch.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/helpkofaxscreen.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/helpkofaxscreen.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/aboutscreen.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/aboutscreen.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/submit_textview.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/submit_textview.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/quick_preview_image_item.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/quick_preview_image_item.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/splash_screen.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/existinglistrow.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/existinglistrow.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/help_screen.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/help_screen.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/submit_document.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/submit_document.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/giftcardlistrow.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/giftcardlistrow.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/custom_countmenu_layout.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/custom_countmenu_layout.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/giftcard_list.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/giftcard_list.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/editfields_spinner.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/editfields_spinner.xml"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/release/layout/custom_checkbox.xml",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/res/layout/custom_checkbox.xml"
+    }
+]

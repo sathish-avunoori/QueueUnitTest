@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="launch_name">Capture</string>
+    <string name="app_name">KMC</string>
+    <string name="app_version">2.4</string>
+    <string name="title_section2">Pending</string>
+    <string name="title_help_kofax">Assist Kofax</string> 
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="str_save">Save</string>
+    <string name="str_servers">Servers</string>
+    <string name="str_empty"></string>
+    <string name="str_no_internet_connection_available">Offline Mode</string>
+
+    <!-- General strings -->
+        
+    <!-- help screen strings -->
+    <string name="str_account_info">Account Information</string>
+    <string name="str_use_kofax_server">Use Kofax Server</string>
+    <string name="str_server_host_name">Server Hostname</string>
+    <string name="str_server_type">Server Type</string>
+    <string name="str_nickname">Nickname</string>
+    <string name="str_ssl">SSL</string>
+    <string name="str_port">Port</string>
+    <string name="str_domain">Domain</string>
+    <string name="str_user_name">Username</string>
+    <string name="str_password">Password</string>
+    <string name="str_email">Email</string>
+    <string name="str_advanced_options">Advanced Options</string>
+    <string name="str_motion_sensitivity">Motion Sensitivity</string>
+    <string name="str_manual_capture">Manual Capture</string>
+    <string name="str_manual_capture_time">Manual Capture Time(Sec)</string>
+    <string name="str_preview_image">Preview Image</string>
+    <string name="str_url">URL</string>
+    <string name="str_confirm_dont_show_this_message_again">Don\'t show this message again</string>
+    <string name="str_info">Info</string>
+    <string name="str_about_kmc">About KMC</string>
+    <string name="str_license_agreement">License Agreement</string>
+    <string name="str_help_info">Help Info</string>
+    <string name="str_help_info_cap">HELP INFO</string>
+    <string name="str_mobile_capture">KOFAX MOBILE CAPTURE</string>
+    <string name="str_app_version">Version</string>
+    <string name="str_app_sdk_version">KMC SDK Version</string>
+    <string name="str_app_privicy"> Privacy Statement\n© 2016 Kofax, Inc. All rights reserved.</string>
+    <string name="str_app_patents">Patents Pending</string>
+    <string name="str_app_patents_text">Use is subject to license terms. \n\nThird party software is copyrighted and licensed from Kofax\'s suppliers. \n\nKofax, the Kofax logo, and the Kofax product names stated herein are trademarks or registered trademarks of Kofax in the U.S. and other countries. All other trademarks are the trademarks or registered trademarks of their respective owners.</string>
+    <string name="str_app_techsupport">Kofax Technical Support</string>
+    <string name="str_app_techsupport_link">www.kofax.com/support</string>
+    <string name="str_app_homepage">Kofax, Inc. Home Page</string>
+    <string name="str_app_homepage_link">www.kofax.com</string>
+    <string name="str_app_license_arg">END USER LICENSE AGREEMENT</string>
+    <string name="str_app_license_arg_text"><b>IMPORTANT NOTICE: By downloading or installing any Kofax Software Products to Your (or your employer’s) computer(s) or network, You are agreeing to be bound by the terms and conditions of this Software License Agreement. If You are downloading or installing Kofax Software in connection with your employment by a business or other entity you represent or work for, you are further representing to Kofax that You are authorized and agree to bind such business or entity to this Agreement in connection with downloading , installing or using any Kofax Software Product (in which case the term “You” as used in this Agreement refers to such business or entity. Use of Kofax Software Products may further require a license key or product registration.</b></string>
+    <string name="str_app_license_title1"><b>1. Software License.</b></string>
+    <string name="str_app_license_text1">  Kofax, Inc. ("Kofax") grants to You a limited, non-exclusive license right (the “License”) to install and use the downloaded Kofax Software Product(s) (the “Software”). The License allows You to use the Software in object code form only for the purposes (internal use, evaluation, testing, demonstration, disaster recovery), duration and extent for which You have paid the appropriate license fees, as evidenced by one or more valid and mutually agreed upon purchase order documents between You and Kofax or an authorized Kofax reseller identifying the product(s) licensed (the ”Software”) and any applicable limitations on use (such as volume limitations or concurrent client module use limitations). Where Your License is limited on an annual volume basis, Your authorized volume usage limit shall pertain to the 12 month period commencing from the date the Software is delivered to You. The License includes the right to use the Software in connection with providing document handling services on behalf of clients as a business process outsourcer or service bureau. Any features or functionality to be included in any future or subsequent releases of the Software are at the sole discretion of Kofax and nothing in this Agreement should be interpreted or construed to include any right on Your part to receive any specific features or functionality in the future.</string>
+    <string name="str_app_license_title2"><b>2. Term "&amp;" Termination.</b></string>
+    <string name="str_app_license_text2">  The License shall remain in effect perpetually unless terminated in accordance with the terms of this Agreement. You may terminate this Agreement and the License at any time by certifying destruction of all copies of the Software and associated documentation. This Agreement will further terminate upon Your failure to cure any material breach of this Agreement within 30 days of written notice from Kofax regarding such breach. In the event of termination, regardless of cause, the License will immediately terminate, and you will promptly destroy all copies of the Software. Sections 6, 7, and 10-17 of this Agreement, and the obligations embodied therein, will survive any termination of this Agreement.</string>
+    <string name="str_app_license_title3"><b>3. Support Services.</b></string>
+    <string name="str_app_license_Kofax_Support_Commitment"><b> Kofax Support Commitment </b></string>
+    www.kofax/<string name="str_app_license_text3">  Kofax or an authorized Kofax reseller will provide support services for which You have paid the required annual support fees, subject to the terms and conditions of this Agreement and the </string>
+    <string name="str_app_license_text3_1"> (the ”Support Commitment”), the current version of which are available at all times at www.Kofax.com/support/ and which is incorporated herein by reference. What is included and excluded from the services, and other requirements, is described in the Support Commitment. Kofax may make minor revisions to the Support Commitment from time to time without notice to You. Support pricing shall be as quoted and agreed upon between the Parties for the initial term, and shall increase for renewal terms by an amount not to exceed 5% of the prior year term fee, provided that increases associated with additional software license purchases, if any, shall be incorporated into the base for the purpose of calculation of each annual increase. The initial one year support services term will begin on the first day of the month following the invoice date of the Software. For as long as Kofax makes support services for the Software generally available to all of its customers, this Agreement will automatically renew on each anniversary date thereafter for a new one year term, unless You give Kofax 60 days written notice, prior to the end of the current term, of Your intent not to renew. Kofax will invoice You for renewal fees up to 60 days prior to expiration of each term. Kofax may terminate and suspend performance of all support services if You fail to pay any past due Kofax invoice within 10 days of written notice of such failure, in the event of any other material breach by You which remains uncured 30 days after notice thereof or if any of the Software ceases to be subject of a valid Software License Agreement. Kofax will not provide support following expiration of this Agreement. In the event You desire support to be reinstated following expiration, You agree: 1) to pay a reinstatement fee   equal to the current annual support fee and any unpaid support fees from the date of expiration to the date of reinstatement; and 2) to pay for at least one additional year of support services from the date of reinstatement. All software maintenance releases, updates, patches, workarounds or other software and/or documentation furnished to You pursuant to this Agreement shall be deemed to be Software, as that term is used herein. Upon receipt and installation of a software maintenance release to a Software program, You may keep (in addition to the current revision archival copy permitted hereunder) one copy of the previous version of that Software for archival purposes only and shall destroy all other copies of the previous version.  </string>
+
+    <string name="str_app_license_title4"><b>4. Professional Services Engagements.</b></string>
+
+    <string name="str_app_license_text4">  All professional services engagements shall be performed under a separate professional services agreement, mutually agreed upon in writing by authorized representatives of each of us. Any fees for Software hereunder shall be due and payable under the terms set forth in Section 5 of this Agreement, and shall not be dependent or contingent in any way upon the performance or completion of any separate professional services engagement.</string>
+    <string name="str_app_license_title5"><b>5. Price-Payment-Delivery.</b></string>
+    <string name="str_app_license_text5">  All rights granted in this Agreement are conditional upon payment of the appropriate fees. Invoices are due and payable 30 days from date of invoice. You agree to pay or reimburse all sales, use, VAT or excise taxes, duties or assessments arising on or measured by amounts payable to Kofax hereunder. You are not responsible for Kofax’s income taxes.  All tangibles will be delivered FOB Kofax’s offices.</string>
+    <string name="str_app_license_title6"><b>6. Copyright.</b></string>
+    <string name="str_app_license_text6">  The Software is proprietary commercial software developed at private expense by Kofax and/or its licensors.  Kofax reserves all intellectual property rights to the Software and its documentation under U.S. Copyright Law and international copyright treaty provisions as well as trade secret, industrial property, unfair competition or similar laws applicable to the locality where you use it. No product or service provided under this Agreement will be deemed a “work-made-for-hire”. In accordance with copyright law You may not, and You may not allow any third party to, 1) decompile, disassemble, or otherwise reverse engineer or attempt to reconstruct or discover any source code or underlying ideas of the Software by any means  whatsoever; 2) remove any product identification, copyright legend or other notices; 3) rent, lease, lend, or sublicense the Software to third parties; 4) modify, incorporate into or with other software or create a derivative work of any part of the Software except as specified in the user documentation or as permitted under separate license agreement with Kofax; or 5) attempt to use the Software, or any portion thereof, in excess of its licensed capacity. Except as may be reasonably required to use the Software in accordance with the License, and except as strictly required for back-up and archival purposes, You may not copy the Software or any portion thereof.</string>
+    <string name="str_app_license_title7"><b>7. Limited Warranty.</b></string>
+    <string name="str_app_license_text7">  Subject to the limitations stated herein, Kofax warrants to You, the original end user, that, for a period of 90 days from the date of receipt a) the hardware key and the media on which Software is furnished will be free of defects in materials and workmanship, and b) such Software, as delivered, will materially conform to Kofax’s then-current documentation for such Software. Your exclusive remedy, and Kofax’s entire liability, under this warranty will be, at Kofax’s option, the replacement of the non-conforming Software, hardware key, media and/or documentation or a refund of the license fee You paid, subject to Your return of the Software. This Limited Warranty is void if failure of the Software has resulted from accident, abuse or misapplication. Any replacement Software will be warranted for the remainder of the original warranty period or 30 days, whichever is longer. The services provided hereunder shall be performed in a good and workmanlike manner in accordance with generally accepted standards of the software industry. This section does not apply to the provision of professional services.</string>
+    <string name="str_app_license_title8"><b>8. Disclaimer of Additional Warranties.</b></string>
+    <string name="str_app_license_text8">  THE EXPRESS WARRANTY ABOVE IS IN LIEU OF ALL OTHER WARRANTIES. KOFAX DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE; OR ANY WARRANTY ARISING FROM THE COURSE OF DEALING BETWEEN THE PARTIES OR FROM TRADE USAGE.</string>
+    <string name="str_app_license_title9"><b>9.  Intellectual Property Indemnification.</b></string>
+    <string name="str_app_license_text9">  Kofax will defend, at its own expense, any claim, suit or proceeding brought against you to the extent it is based upon a claim that Your use of the Software in the United States, Canada, Australia or the European Union pursuant to this Agreement infringes upon any patent, copyright or trade secret of a third party. You agree that you will promptly notify Kofax in writing of any such claim or action and give Kofax full information and assistance in connection therewith. Kofax will have the sole right to control the defense of, and to settle or compromise, any such claim or action. If You comply with the provisions hereof, Kofax will pay all damages, costs and expenses finally awarded to third parties against You in such action. If the Software is, or in Kofax’s opinion might be, held to infringe as set forth above, Kofax may, at its option, replace or modify the Software so as to avoid infringement, or procure the right for You to continue to use the Software. If neither of such alternatives is, in Kofax’s opinion, commercially reasonable, You will return the infringing Software to Kofax, and Kofax\'s sole liability, in addition to its obligation to pay awarded damages, costs and expenses as set forth above, shall be to refund the license fees You paid to Kofax hereunder, depreciated on a 3-year, straight-line basis.</string>
+    <string name="str_app_license_text9_1">Kofax will have no liability for any claim of infringement arising as a result of a) Your use of the Software in combination with any items not supplied by Kofax; b) any modification of the Software at Your request; c) use of other than the latest revision of the Software if use of the latest revision would avoid the infringement; or d) use outside the scope of the granted licenses.</string>
+    <string name="str_app_license_text9_2">The foregoing states Kofax’s entire liability concerning infringement of intellectual property rights, including but not limited to, patent, copyright and trade secret rights.</string>
+    <string name="str_app_license_title10"><b>10.  Limitation of Liability.</b></string>
+    <string name="str_app_license_text10">  UNDER NO CIRCUMSTANCES WILL KOFAX BE LIABLE TO YOU FOR ANY LOST PROFITS, LOST OR DEGRADED DATA, INTERRUPTION OF BUSINESS, PROCUREMENT OF SUBSTITUTE PRODUCTS, OR FOR INDIRECT, SPECIAL, CONSEQUENTIAL, INCIDENTAL OR PUNITIVE DAMAGES, HOWEVER CAUSED AND REGARDLESS OF THEORY OF LIABILITY, ARISING OUT OF THE USE OF (OR INABILITY TO USE) THE SOFTWARE OR THE PROVISION OF SERVICES HEREUNDER, EVEN IF KOFAX HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</string>
+    <string name="str_app_license_text10_1"> Except as set forth in Section 9, Kofax’s liability to you will in no event, whether in contract, tort (including negligence) or otherwise, exceed the fees You actually paid to Kofax pursuant to this Agreement.</string>
+    <string name="str_app_license_title11"><b>11.  Equitable Remedies.</b></string>
+    <string name="str_app_license_text11">  You agree that a material breach of this Agreement adversely affecting Kofax’s proprietary rights in the Software or other confidential materials provided hereunder would cause irreparable injury to Kofax for which monetary damages would not be an adequate remedy and, therefore, that Kofax shall be entitled to equitable relief (e.g. injunction) in addition to any remedies it may have hereunder or at law.</string>
+    <string name="str_app_license_title12"><b>12.  Assignment.</b></string>
+    <string name="str_app_license_text12">  You may not assign this Agreement or any of the rights granted hereunder without the prior written approval of Kofax.</string>
+    <string name="str_app_license_title13"><b>13.  Notices.</b></string>
+    <string name="str_app_license_text13">  All notices under this Agreement shall be in writing, shall reference this Agreement, and shall be deemed given: 1) when delivered personally; 2) when sent by confirmed facsimile transmission; 3) five days after having been sent by registered or certified mail, return receipt requested; or 4) one day after deposit with a commercial overnight carrier, with written verification of receipt.</string>
+    <string name="str_app_license_title14"><b>14.  Waiver/Severability.</b></string>
+    <string name="str_app_license_text14">  Failure by either of us to enforce any provision of this Agreement shall not be deemed a waiver of future enforcement of that or any other provision. Similarly, the provision of any accommodation exceeding the requirements of this Agreement shall not constitute a waiver of any provision hereof, nor shall it be construed to establish a course of dealing contrary to the express terms hereof. If any provision of this Agreement shall be adjudged by a court of competent jurisdiction to be unenforceable, that provision shall be limited or eliminated to the minimum extent necessary so that this Agreement shall otherwise remain in full force and effect.</string>
+    <string name="str_app_license_title15"><b>15.  Resolution of Disputes.</b></string>
+    <string name="str_app_license_text15">  In the event of any dispute arising out of or relating to this Agreement, we shall attempt in good faith to resolve such dispute through informal means, including timely escalation of the dispute to senior management having full settlement authority. If the dispute is not resolved as a result of these efforts, the matter will be submitted to final and binding arbitration under the rules of the American Arbitration Association. We agree to cooperate in selecting an arbitrator and in scheduling the arbitration proceedings. Arbitration proceedings will be conducted by one arbitrator in the English language, applying the substantive state and federal laws of and for California, excluding its laws pertaining to “conflict of law”. We specifically agree that that body of law known as the United Nations Convention on the International Sale of Goods shall not apply to this Agreement. The site of any proceedings shall be Orange County, California. The provisions of this section and any resulting award may be enforced by any court of competent jurisdiction. The prevailing party in any arbitration shall be entitled to an award of all costs, fees and reasonable expenses, including attorneys’ fees, incurred as a result of the arbitration or any action to enforce the arbitration award. Punitive damages may not be awarded in connection with any arbitration proceeding arising out of or relating to this Agreement.</string>
+    <string name="str_app_license_title16"><b>16.  Force Majeure.</b></string>
+    <string name="str_app_license_text16">  Neither party to this Agreement shall be liable for non-performance to the extent that such non-performance is caused by events or conditions beyond that party’s control, provided such party promptly notifies the other thereof and makes reasonable efforts to perform.</string>
+    <string name="str_app_license_title17"><b>17. Third Party Software.</b></string>
+    <string name="str_app_license_text17">  Notwithstanding the terms and conditions of this Agreement, some portions of the Software that constitute third party software, including software provided under a public license, (“Third Party Software”) may be licensed to you subject to additional and/or different terms and conditions.  In such event, the software license agreements accompany such Third Party Software or are set forth in the thirdpartylicenses.txt file accompanying the  Software.  Unless explicitly stated in such software license agreements, the use of the Third Party Software will be governed exclusively by the terms and conditions thereof.</string>
+    <string name="str_app_license_title18"><b>18.  Complete Agreement.</b></string>
+    <string name="str_app_license_text18">  This Agreement, including all attachments, constitutes the entire agreement between the parties with respect to the subject matter hereof. It supersedes and replaces all prior or contemporaneous understandings or agreements, written or oral, regarding such subject matter, and it shall supersede any and all conflicting provisions of any order document(s) between the parties. This Agreement may be modified, amended or waived only by a written instrument signed by duly authorized representatives of both parties.</string>
+    
+    <string name="str_more_about_kmc">To know more about KMC click this link below</string>
+    <string name="str_kmc_url">www.kofax.com/mobilecapture</string>
+    <string name="str_new_item">New item</string>
+    <string name="str_new_item_desc">Choose from a list of item types and a start a new item.</string>
+    <string name="str_existing_item">Existing item</string>
+    <string name="str_existing_item_desc">Created new document and not submitted to server, this item will be in existing document list. Submit them whenever intended.</string>
+    <string name="str_edit_item_info">Edit item info</string>
+    <string name="str_edit_item_info_desc">Modify or enter field data associated with an item.</string>
+    <string name="str_change_item_type">Change item type</string>
+    <string name="str_change_item_type_desc">Change the item type from item type to another item type.</string>
+    <string name="str_add">Add</string>
+    <string name="str_add_desc">Add the image.</string>
+    <string name="str_crop">Crop</string>
+    <string name="str_edit_info">Edit information</string>
+    <string name="str_crop_desc">Manually crop the image.</string>
+    <string name="str_rotate">Rotate</string>
+    <string name="str_rotate_desc">Rotate images.</string>
+    <string name="str_revert">Revert</string>
+    <string name="str_revert_desc">Revert images.</string>
+    <string name="str_image_details">Image Details</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_delete_desc">Delete images from any items.</string>
+    <string name="str_submit_item">Submit item</string>
+    <string name="str_submit_item_desc">Submit captured item images to server.</string>
+    <string name="str_submit_server">Submit to Server</string>
+    <string name="str_dimension">Dimension</string>
+    <string name="str_created">Created</string>
+    <string name="str_size">Size</string>
+    <string name="str_latitude">Latitude</string>
+    <string name="str_longitude">Longitude</string>
+    <string name="str_not_available">Not available</string>
+    <string name="str_MB">MB</string>
+    <string name="str_KB">KB</string>
+    <string name="str_date">Date</string>
+    <string name="str_on">On</string>
+    <string name="str_off">Off</string>
+    <string name="str_auto">Auto</string>
+    <string name="str_flash">Flash</string>
+    <string name="str_edit_information">Edit Information</string>
+    <string name="str_add_images">Add Images</string>
+    <string name="str_more">More</string>
+    <string name="str_change_type">Change Type</string>
+    <string name="str_select">Select</string>
+    <string name="str_revert_images">Revert Images</string>
+    <string name="str_delete_images">Delete Images</string>
+    <string name="str_docs">Documents</string>
+    <string name="str_help">Help</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_to">to</string>
+    <string name="str_accept">Accept</string>
+    <string name="str_retake">Retake</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_image_feedback">Image Feedback</string>
+    <string name="str_image_process">Show Processed Image</string>
+    <string name="str_image_unprocess">Show Original Image</string>
+    <string name="str_enter_manually">Enter manually</string>
+    <string name="str_process">Process</string>
+
+    <!-- help screen strings END -->
+
+
+    <!-- Servertype strings -->
+    <string name="str_kfs_server">Kofax Front Office Server</string>
+    <string name="str_kta_server">Kofax TotalAgility</string>
+    <string name="str_kta_azure_server">Kofax TotalAgility Azure</string>
+    
+
+    <!-- Servertype strings -->
+
+    <string name="str_document">Document</string>
+    <string name="str_photo">Photo</string>
+	<string name="str_no_fields">No fields</string>
+    <string name="str_no_documents">No recent data</string>
+    <string name="hdr_terms_conditions">Terms And Conditions</string>
+    <!-- alert dialog strings -->
+    <string name="str_user_msg_no_image_to_select">Add one or more images to select</string>
+    <string name="str_user_msg_revert_selected_images_confirmation">Do you want to revert selected images?</string>
+    <string name="str_user_msg_revert_single_selected_image_confirmation">Do you want to revert selected image?</string>
+	<string name="str_user_msg_change_item_type_confirmation_title">Change Type</string>
+	<string name="str_user_msg_change_item_type_lowend_confirmation">Changing the document type will remove all the processed images and reset existing field information.\n\nDo you want to continue?</string>
+    <string name="str_user_msg_change_item_type_confirmation">Changing the document type will reprocess images and reset existing field information.\n\nDo you want to continue?</string>
+    <string name="str_user_msg_revert_single_image_confirmation">Do you want to revert the image?</string>
+    <string name="str_user_msg_revert_confirmation_title">Revert</string>
+    <string name="str_user_msg_delete_selected_images_confirmation">Do you want to delete selected images?</string>
+    <string name="str_user_msg_delete_single_selected_image_confirmation">Do you want to delete selected image?</string>
+    <string name="str_user_msg_delete_image_confirmation">Do you want to delete the image?</string>
+    <string name="str_user_msg_generic_delete_confirmation">Do you want to delete?</string>
+    <string name="str_user_msg_delete_confirmation_title">Delete</string>
+    <string name="str_user_msg_no_image_selected">No images selected</string>
+    <string name="str_user_msg_no_item_type_exists">Selected document type is no longer available on server.</string>
+    <string name="str_user_msg_change_document_type_before_using_option">Please change document type before using any option.</string>
+    
+    <string name="str_msg_do_you_want_to_import_existing_data">Do you want to import existing data?</string>
+    <string name="str_pic_from_gallery">Picture was selected from gallery</string>
+    <string name="str_pic_from_device_camera">Picture was taken by camera</string>
+    <string name="str_process_all_images">Processing parameters have been updated on server. \nPlease process all the images again.</string>
+    <string name="str_processing_all_images">Processing parameters have been updated on server. \nReprocessing all the images with updated parameters.</string>
+    <string name="str_datatype_not_matching">"Data type not matching for field "</string>
+    <string name="str_launch_time_memory_warning">Your device is low on memory. Please free up some space in  the device and restart this app.</string>
+    <string name="str_capture_time_memory_warning">There is no enough space in device to capture another document. Please create more free space in device.</string>
+    <!-- Toast messages -->
+
+    
+    <string name="toast_error_bitmap_null">Error: bitmap is null.</string>
+    <string name="toast_processing_failed">Image processing failed.</string>
+    <string name="toast_processing_params_changed">Processing parameters for the selected item have changed. Reprocessing all images using new processing parameters.</string>
+    
+    <string name="toast_error_cannot_retrieve_image_details">Cannot retrieve image details.</string>
+    <string name="toast_exception_read_license_file">IO exception occurred while reading file.</string>
+    <string name="toast_save_image_failed">Failed to save the image.</string>
+    <string name="toast_failed_to_write_field_info">Failed to write field information.</string>
+    <string name="toast_fields_added">New Fields Are Added.</string>
+    <string name="toast_fields_removed">Fields Are Removed.</string>
+    <string name="toast_empty_document">There are no images to be submitted.</string>
+    <string name="toast_no_network_connectivity">No network available.</string>
+    <string name="toast_try_again">Please try again later.</string>
+    <string name="toast_app_work_offline">Application will work in offline mode.</string>
+    <string name="toast_session_state_busy">Session state is currently busy.\nPlease try again later.</string>
+    <string name="toast_item_submitted_successful">Submit successful.</string>
+    <string name="toast_unable_to_cancel_operation">Unable to cancel the operation.</string>
+    <string name="toast_use_valid_license">Please use valid KFS license to proceed</string>
+    <string name="toast_unable_to_decode_file">Unable to decode file</string>
+    <string name="toast_balance_retrieval_failed">Balance retrieval failed</string>
+    <string name="toast_cardnumber_required">Card number cannot be empty to request balance.</string>
+    <string name="toast_no_fields">Selected document has no fields.</string>
+    <string name="toast_error_required_fields_empty">One or more required fields are empty.\nPlease fill in the required details.</string>
+    <string name="toast_error_email_required">An email address is required to be registered before using application.</string>
+    <string name="toast_error_invalid_email">Please enter valid email address.</string>
+    <string name="toast_error_image_processing_cannot_be_performed">Image processing cannot be performed.</string>
+    <string name="toast_error_field_details_cannot_be_downloaded">Field details cannot be downloaded.</string>
+    <string name="toast_error_cannot_submit">Cannot submit.</string>
+    <string name="toast_error_cannot_initiate_submit">Submit cannot be initiated.</string>
+    <string name="toast_unrecoverable_problem">Unrecoverable problem, trying to login again.</string>
+    
+    <string name="progress_msg_required_fields_empty">Required fields cannot be empty.</string>
+    <string name="progress_msg_updating_list_failed">List update failed. Please check network.</string>
+    <string name="progress_msg_session_currently_logging_in">A Kofax Mobile Capture (KMC) session is currently logging in.\nPlease wait for KMC to complete the login process before starting a new session.</string>
+    <string name="progress_msg_session_currently_busy">A Kofax Mobile Capture session is currently busy.\nPlease try again after session is free.</string>
+    <string name="progress_msg_session_already_running_use_back_to_exit">A Kofax Mobile Capture (KMC) session is already running.\nPlease use back key to exit KMC before changing login credentials.</string>
+    <string name="progress_msg_session_already_has_active_case_open">A Kofax Mobile Capture (KMC) is currently not on Home screen. Please navigate back to the KMC Home screen or exit application completely.</string>
+  	<string name="progress_msg_session_currently_paused">A Kofax Mobile Capture (KMC) session is currently paused and waiting to log in.\nPlease bring this KMC session to the foreground (tap on KMC icon), and wait for login to complete.</string>
+	<string name="progress_msg_please_enter_values_between">Please enter values between </string>
+    <string name="progress_msg_url_contains_invalid_document_types">URL contains invalid document type.</string>
+    <string name="progress_msg_url_contains_invalid_parameters">URL contains invalid parameters.</string>
+    <string name="progress_msg_url_contains_assistkofx_document_type">"Assist Kofax Documnet type is not supported in custom URL."</string>
+    <string name="msg_range">range</string>
+    <string name="msg_to">to</string>
+
+    <!-- Button labels -->
+    <string name="btn_label_ok">OK</string>
+    <string name="btn_label_cancel">Cancel</string>
+    <string name="btn_label_iagree">I Agree</string>
+
+    <!-- Labels -->
+    <string name="lbl_no_email_registered">No Email registered</string>
+    <string name="lbl_invalid_email">Invalid email</string>
+    <string name="lbl_login_error">Login Error</string>
+    <string name="lbl_submit_not_initiated">Submit not initiated</string>
+    <string name="lbl_images">Images</string>
+    <string name="lbl_selected">Selected</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="lbl_document">Document</string>
+    <string name="lbl_document_name">Name</string>
+    <string name="lbl_total_images">Total Images</string>
+    <string name="lbl_total_pages">Total Pages</string>
+    <string name="lbl_done">Done</string>
+    <string name="lbl_sample_date">31 Jan 2015  | 10:17AM</string>
+    <string name="lbl_confirm">Confirm</string>
+    <string name="lbl_image">Image is </string>
+    <string name="lbl_not_blurry">\tnot blurry</string>
+    <string name="lbl_and">and</string>
+    <string name="lbl_blurry">blurry</string>
+    <string name="lbl_oversaturated">too bright.</string>
+    <string name="lbl_undersaturated">too dark.</string>
+    <string name="lbl_offline">Offline</string>
+    <string name="lbl_login_failed_error">Login Error</string>
+    <string name="lbl_connect">Connect</string>
+    <string name="lbl_disconnect">Disconnect</string>
+    <string name="str_anonymous">Anonymous Login</string>
+
+
+
+    <!-- Action bar screen labels -->
+    <string name="actionbar_lbl_screen_document_info">Field Details</string>
+    <string name="actionbar_lbl_screen_preview">Preview</string>
+    <string name="actionbar_lbl_screen_submit_document">Submit</string>
+
+    <!-- Progress dialog messages -->
+    <string name="progress_msg_please_wait">Please wait…</string>
+    <string name="progress_msg_logging_in">Logging in…</string>
+    <string name="progress_msg_logging_out">Logging out…</string>
+    <string name="progress_msg_registering_device">Registering device…</string>
+    <string name="progress_msg_downloading_doc_details">Downloading details. Please wait…</string>
+    <string name="progress_msg_downloading_image">Fetching image. Please wait…</string>
+    <string name="progress_msg_updating_view">Updating view. Please wait…</string>
+    <string name="progress_msg_updating_list">Updating list. Please wait…</string>
+    <string name="progress_msg_validating_fields">Validating fields. Please wait…</string>
+    <string name="progress_msg_submitting">Submitting…</string>
+    <string name="progress_msg_caneling">Canceling…</string>
+    <string name="progress_msg_processing">Processing…</string>
+    <string name="progress_msg_updating_list_label">Updating list…</string>
+
+    <!-- Error messages -->
+
+    <string name="error_lbl">Error </string>
+    <string name="error_lbl_argument">Argument Error</string>
+    <string name="error_lbl_download_error">Download Error</string>
+    <string name="error_lbl_user_not_loggedin">User Not Logged In</string>
+    <string name="error_lbl_user_name_empty">Please enter username</string>
+    <string name="error_msg_provided_url_has_errors">The provided URL has errors and is not usable.</string>
+    <string name="error_msg_error_parsing_custom_url">An error occurred parsing the custom URL</string>
+    <string name="error_msg_error_document_download">An error occurred while downloading document details.</string>
+    <string name="error_msg_error_document_download_for_new_type">An error occurred while downloading details for new type.</string>
+    
+    <string name="error_msg_error_no_document_details_available">No document details available.</string>
+    <string name="error_msg_while_registering">Error while registering </string>
+    <string name="error_msg_while_logging_in">User login error.</string>
+    <string name="error_msg_do_you_want_to_logout">Logout from the server?</string>
+    <string name="error_msg_submit_failed">Submit failed.</string>
+    <string name="error_msg_query_string_has_errors_and_is_not_usable">The query string has errors and is not usable</string>
+    <string name="error_msg_giftcard_balance">Could not get the balance.</string>
+    <string name="error_msg_doc_error">You must login first to create document.</string>
+    <string name="server_validation_message">Please enter valid server url</string>
+
+    <!-- Application mesages -->
+    <string name="app_msg_value_outofrange">Current value is out of range.</string>
+    <string name="app_msg_datatype_changed">Data type changed.</string>
+    
+    <string name="app_msg_docs_not_processed">There are some unprocessed images, please process them before submitting.</string>
+    <string name="app_msg_image_notfound">Image not found!</string>
+    <string name="app_msg_try_again_later">Please try again later.</string>
+    <string name="app_msg_offline_msg">Would you like to work in offline mode?</string>
+    <string name="app_msg_online_msg">Network is available. Would you like to login or continue using application in offline mode?</string>
+    <string name="app_msg_invalid_session_msg">Only the last successful logged-in user will be logged in offline mode.</string>
+    <string name="app_msg_invalid_only_once_session_msg">To use the application in offline mode, the user is required  to have logged in at least once.</string>
+    <string name="app_msg_offline_operaton_failed">This operation is not supported in offline mode.</string>
+    
+
+    <!-- user information screen -->
+
+    <string name="giftcardlist_text">Select from the supported cards below to capture an image of your gift card.</string>
+    <string name="giftcardlist_title">Gift Cards</string>
+    <string name="giftcardbalance_title">Gift Card Balance</string>
+    <string name="balance_text">Balance</string>
+    <string name="pin_text">Card Pin</string>
+    <string name="card_type_text">Card Type</string>
+    <string name="card_num_text">Card Number</string>
+    <string name="exp_date_text">Expiry Date</string>
+    <string name="done_text">Done</string>
+    <string name="refresh_text">Refresh</string>
+    <string name="tap_on_image">Tap on the above image to retake</string>
+    <string name="capture_giftcard">Captured photo of Gift Card</string>
+    <string name="hold_steady_message">Hold steady</string>
+    <string name="improper_orientation">Improper Device Orientation</string>
+    <string name="device_too_far_near">Document not Found.\nMove the camera to zoom in or out.</string>
+    <string name="move_closer">Move camera closer to the document</string>
+    <string name="userInstruction">"Fit document in the frame.\nPicture will be taken automatically"</string>
+
+
+    <string name="userdlInstruction">"Fill viewable area with ID card"</string>
+    <string name="usercdInstruction">"Fill viewable area with check</string>
+    <string name="userppInstruction">"Fill viewable area with Passport"</string>
+    <string name="userbpInstruction">"Fill viewable area with payment coupon"</string>
+    <string name="usergiftcardInstruction">"Fill viewable area with gift card"</string>
+
+
+    <string name="permission_alert">Application may misbehave,Please goto Settings->Apps->Capture->Permissions and change the permissions to Allow</string>
+    <string name="permissions">PERMISSIONS</string>
+    <string name="gallery_permission_alert">You need to allow access to Gallery. To allow, goto Settings->Apps->Capture->Permissions and change the permissions to Allow</string>
+</resources>

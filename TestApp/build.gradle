@@ -1,0 +1,157 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.0'
+    }
+}
+apply plugin: 'com.android.application'
+
+
+
+tasks.withType(JavaCompile) {
+//    compileTask -> compileTask.dependsOn(nativeLibsToJar)
+}
+
+def jniLibsArray
+
+dependencies {
+    repositories {
+        mavenLocal()
+        jcenter()
+        if (project.hasProperty("mavenUrl")) {
+            maven { url mavenUrl }
+        }
+    }
+
+    def sdkRef = null
+
+    project.getRootProject().allprojects.each { proj ->
+        if (proj.name.toLowerCase().equals('sdk')) {
+            sdkRef = proj;
+            return true;
+        }
+    }
+
+    if (!sdkRef && project.hasProperty("clSdkRef")) {
+        sdkRef = clSdkRef
+    }
+
+    if (sdkRef) {
+        println "SDK present in project; using project reference as dependency"
+        jniLibsArray = []
+        compile sdkRef
+    } else {
+        println "SDK is not present in project; dependency reference"
+        jniLibsArray = ['libs']
+        repositories {
+            flatDir { dirs 'libs' }
+        }
+
+        compile (name: 'sdk-release', ext: 'aar')
+        compile fileTree(dir: 'libs', include: '*.jar')
+    }
+
+    compile fileTree(dir: 'externalLibs', include: '*.jar')
+    compile 'com.android.support:multidex:1.0.1'
+    androidTestCompile 'com.android.support:multidex-instrumentation:1.0.1'
+    compile project(':processqueue')
+}
+
+
+    println 'Disabling dependencies cache.'
+    configurations.all {
+        resolutionStrategy {
+            cacheDynamicVersionsFor 0, 'seconds'
+            cacheChangingModulesFor 0, 'seconds'
+        }
+    }
+
+
+
+android {
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+
+    if(project.hasProperty("releaseConfig") && new File(project.property("releaseConfig")).exists()) {
+        println "releaseConfig present in project"
+        apply from: project.property("releaseConfig");
+    }else{
+        println "releaseConfig not present in project"
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        instrumentTest.setRoot('src/tests')
+        defaultConfig{
+            multiDexEnabled true
+        }
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        /*debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')*/
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'com/kofax/android/abc/configuraPK'
+        exclude 'META-INF/MANIFEST'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+//        exclude 'META-INF/maven/com.google.code.gson/gson/pom.properties'
+//        exclude 'META-INF/maven/com.google.code.gson/gson/pom.xml'
+//        exclude 'META-INF/maven/com.squareup.okhttp3/okhttp/pom.properties'
+//        exclude 'META-INF/maven/com.squareup.okhttp3/okhttp/pom.xml'
+//        exclude 'META-INF/maven/com.squareup.okio/okio/pom.properties'
+//        exclude 'META-INF/maven/com.squareup.okio/okio/pom.xml'
+//        exclude 'META-INF/maven/com.squareup.retrofit2/converter-gson/pom.properties'
+//        exclude 'META-INF/maven/com.squareup.retrofit2/converter-gson/pom.xml'
+//        exclude 'META-INF/maven/com.squareup.retrofit2/retrofit/pom.properties'
+//        exclude 'META-INF/maven/com.squareup.retrofit2/retrofit/pom.xml'
+//        exclude 'META-INF/maven/commons-io/commons-io/pom.properties'
+//        exclude 'META-INF/maven/commons-io/commons-io/pom.xml'
+//        exclude 'META-INF/maven/com.squareup/otto/pom.properties'
+//        exclude 'META-INF/maven/com.squareup/otto/pom.xml'
+//        exclude 'META-INF/maven/org.apache.commons/commons-lang3/pom.xml'
+//        exclude 'META-INF/maven/org.apache.commons/commons-lang3/pom.properties'
+//        exclude 'META-INF/maven/com.google.guava/guava/pom.properties'
+//        exclude 'META-INF/maven/com.google.guava/guava/pom.xml'
+//        exclude 'META-INF/maven/org.roboguice/roboguice/pom.properties'
+//        exclude 'META-INF/maven/org.roboguice/roboguice/pom.xml'
+//        exclude 'com/google/thirdparty/publicsuffix/PublicSuffixType.gwt.xml'
+//        exclude 'com/google/thirdparty/publicsuffix/PublicSuffixPatterns.gwt.xml'
+//        exclude 'META-INF/maven/com.google.dagger/dagger/pom.properties'
+//        exclude 'META-INF/maven/com.google.dagger/dagger/pom.xml'
+//        exclude 'META-INF/MANIFEST.MF'
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+//configurations.all {
+//    // check for updates every build
+//    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+//}

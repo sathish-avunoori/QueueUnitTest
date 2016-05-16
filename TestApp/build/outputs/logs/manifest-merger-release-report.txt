@@ -1,0 +1,444 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:2:1-145:12
+	xmlns:android
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:3:5-38
+	android:versionName
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml
+		INJECTED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:4:5-35
+		INJECTED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml
+		INJECTED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:10:5-12:41
+MERGED from [KofaxMobileCapture:processqueue:unspecified] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/KofaxMobileCapture/processqueue/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:10:5-12:41
+	android:targetSdkVersion
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:8:9-35
+supports-screens
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:11:5-16:40
+	android:largeScreens
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:13:9-36
+	android:anyDensity
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:12:9-34
+	android:normalScreens
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:16:9-37
+	android:smallScreens
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:15:9-36
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:20:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:21:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.CAMERA.autoFocus
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:23:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:25:5-66
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:25:22-63
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:26:22-65
+uses-feature#android.hardware.camera
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:28:5-83
+	android:required
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:28:58-81
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:28:19-57
+application
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:30:5-143:19
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:14:5-89:19
+MERGED from [KofaxMobileCapture:processqueue:unspecified] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/KofaxMobileCapture/processqueue/unspecified/AndroidManifest.xml:11:5-14:19
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:14:5-89:19
+	android:supportsRtl
+		ADDED from [KofaxMobileCapture:processqueue:unspecified] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/KofaxMobileCapture/processqueue/unspecified/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:36:9-44
+	android:allowBackup
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:32:9-35
+	android:icon
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:35:9-45
+	android:theme
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:38:9-40
+	android:largeHeap
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:37:9-33
+	android:allowClearUserData
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:33:9-42
+	android:allowTaskReparenting
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:34:9-45
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:31:9-62
+activity#com.kofax.mobilecapture.views.Main
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:39:9-58:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:43:13-49
+	android:theme
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:44:13-83
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:40:13-62
+	android:alwaysRetainTaskState
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:41:13-50
+	android:launchMode
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:42:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:48:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:50:13-57:29
+action#android.intent.action.VIEW
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:51:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:53:17-76
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:53:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:54:17-78
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:54:27-75
+data
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:56:17-46
+	android:scheme
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:56:23-43
+activity#com.kofax.mobilecapture.views.HomeActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:59:9-65:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:62:13-29
+	android:icon
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:61:13-48
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:60:13-70
+	android:launchMode
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:63:13-44
+activity#com.kofax.mobilecapture.views.ExistingItemsActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:66:9-70:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:69:13-49
+	android:label
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:68:13-51
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:67:13-79
+activity#com.kofax.mobilecapture.views.ItemDetailsActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:71:9-75:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:74:13-49
+	android:configChanges
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:73:13-63
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:72:13-77
+activity#com.kofax.mobilecapture.views.Capture
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:76:9-80:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:78:13-49
+	android:theme
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:79:13-71
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:77:13-65
+activity#com.kofax.mobilecapture.views.HelpKofaxActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:81:10-85:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:83:13-53
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:82:13-75
+activity#com.kofax.mobilecapture.views.QuickPreviewActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:86:9-89:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:87:13-78
+activity#com.kofax.mobilecapture.views.GiftCardPreviewActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:90:9-93:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:92:13-49
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:91:13-81
+activity#com.kofax.mobilecapture.views.ImageEditActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:94:9-98:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:96:13-45
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:95:13-75
+activity#com.kofax.mobilecapture.views.SubmitDocument
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:99:9-102:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:101:13-49
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:100:13-72
+activity#com.kofax.mobilecapture.views.EditFieldsActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:103:9-106:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:105:13-49
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:104:13-76
+activity#com.kofax.mobilecapture.views.ServerTypeList
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:107:9-111:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:110:13-49
+	android:label
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:109:13-48
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:108:13-72
+activity#com.kofax.mobilecapture.views.HelpActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:112:9-115:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:113:13-70
+activity#com.kofax.mobilecapture.views.GiftCardListActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:116:9-120:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:119:13-49
+	android:label
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:118:13-55
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:117:13-78
+activity#com.kofax.mobilecapture.views.GiftCardInformation
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:121:9-125:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:124:13-49
+	android:label
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:123:13-58
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:122:13-77
+activity#com.kofax.mobilecapture.views.InfoScreen
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:126:9-129:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:128:13-49
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:127:13-68
+activity#com.kofax.mobilecapture.views.AboutActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:130:9-133:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:132:13-49
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:131:13-71
+activity#com.kofax.mobilecapture.views.LicenseAgreementActivity
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:134:9-137:20
+	android:screenOrientation
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:135:13-82
+receiver#com.kofax.mobilecapture.utilities.NetworkChangeReceiver
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:138:10-142:20
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:138:20-90
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:139:13-141:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:140:16-77
+	android:name
+		ADDED from /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/AndroidManifest.xml:140:24-75
+activity#com.kofax.mobile.sdk.capture.check.CheckExtractActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:15:9-18:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:15:9-18:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:18:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:17:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:16:13-83
+activity#com.kofax.mobile.sdk.capture.check.CheckCaptureActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:19:9-22:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:19:9-22:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:22:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:21:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:20:13-83
+activity#com.kofax.mobile.sdk.capture.check.CheckWorkflowActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:23:9-26:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:23:9-26:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:26:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:25:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:24:13-84
+activity#com.kofax.mobile.sdk.capture.ImageReviewActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:27:9-30:52
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:27:9-30:52
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:30:13-49
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:29:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:28:13-76
+activity#com.kofax.mobile.sdk.capture.ProcessActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:31:9-34:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:31:9-34:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:34:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:32:13-72
+activity#com.kofax.mobile.sdk.capture.bill.BillExtractActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:35:9-38:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:35:9-38:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:38:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:37:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:36:13-81
+activity#com.kofax.mobile.sdk.capture.bill.BillCaptureActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:39:9-42:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:39:9-42:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:42:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:41:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:40:13-81
+activity#com.kofax.mobile.sdk.capture.bill.BillWorkflowActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:43:9-46:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:43:9-46:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:46:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:45:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:44:13-82
+activity#com.kofax.mobile.sdk.capture.id.IdExtractActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:47:9-50:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:47:9-50:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:50:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:49:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:48:13-77
+activity#com.kofax.mobile.sdk.capture.id.IdCaptureActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:51:9-54:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:51:9-54:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:54:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:53:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:52:13-77
+activity#com.kofax.mobile.sdk.capture.id.IdCaptureBackActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:55:9-58:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:55:9-58:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:58:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:57:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:56:13-81
+activity#com.kofax.mobile.sdk.capture.id.IdWorkflowActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:59:9-62:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:59:9-62:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:62:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:61:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:60:13-78
+activity#com.kofax.mobile.sdk.capture.passport.PassportExtractActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:63:9-66:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:63:9-66:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:66:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:65:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:64:13-89
+activity#com.kofax.mobile.sdk.capture.passport.PassportCaptureActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:67:9-70:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:67:9-70:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:70:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:69:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:68:13-89
+activity#com.kofax.mobile.sdk.capture.passport.PassportWorkflowActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:71:9-74:53
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:71:9-74:53
+	android:screenOrientation
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:74:13-50
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:73:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:72:13-90
+activity#com.kofax.mobile.sdk.capture.creditcard.CreditCardWorkflowActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:75:9-77:77
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:75:9-77:77
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:77:13-74
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:76:13-94
+activity#com.kofax.mobile.sdk.capture.creditcard.CardIoWrapperActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:78:9-98
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:78:9-98
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:78:19-95
+activity#io.card.payment.CardIOActivity
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:79:9-81:66
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:79:9-81:66
+	android:configChanges
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:81:13-63
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:80:13-58
+meta-data#roboguice.annotations.packages
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:83:9-85:41
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:83:9-85:41
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:84:13-58
+	android:value
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:85:13-38
+meta-data#roboguice.modules
+ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:86:9-88:71
+MERGED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:86:9-88:71
+	android:name
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:87:13-45
+	android:value
+		ADDED from [:sdk-release:] /Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/AndroidManifest.xml:88:13-68

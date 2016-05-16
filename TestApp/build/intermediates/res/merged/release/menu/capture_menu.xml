@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_flash"
+        android:icon="@drawable/about_us"
+        android:title="@string/str_flash"
+        android:showAsAction="always"
+        android:visible="true">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+            <item
+                android:id="@+id/menu_auto"
+                android:title="@string/str_auto"/>
+            <item
+                android:id="@+id/menu_off"
+                android:title="@string/str_off"/>
+            <item
+                android:id="@+id/menu_on"
+                android:title="@string/str_on"/>
+        </menu>
+    </item>
+
+</menu>

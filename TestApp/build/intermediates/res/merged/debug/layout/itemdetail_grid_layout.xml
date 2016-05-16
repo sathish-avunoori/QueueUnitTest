@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/doc_submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight ="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#0079C2"
+        android:text="@string/str_submit_server" 
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:enabled="false"/>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/doc_submit_button"
+        android:listSelector="@drawable/list_selector"
+        android:horizontalSpacing="@dimen/left_padding"
+        android:scrollbars="none"
+        android:layout_margin="@dimen/left_padding"
+        android:numColumns="3" 
+        />
+
+    <ProgressBar
+        android:id="@+id/progressLoader"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/gridView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="168dp" 
+        android:visibility="invisible"/>
+
+</RelativeLayout>

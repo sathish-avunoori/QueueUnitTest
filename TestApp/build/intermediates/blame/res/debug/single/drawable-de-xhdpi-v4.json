@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/debug/drawable-de-xhdpi-v4/document_sample.png",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/res/drawable-de-xhdpi-v4/document_sample.png"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/debug/drawable-de-xhdpi-v4/check_back_sample.png",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/res/drawable-de-xhdpi-v4/check_back_sample.png"
+    },
+    {
+        "merged": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/res/merged/debug/drawable-de-xhdpi-v4/check_sample_rotated.png",
+        "source": "/Users/sathish/KofaxMobileCapture/Android/KofaxMobileCapture/build/intermediates/exploded-aar/sdk-release/res/drawable-de-xhdpi-v4/check_sample_rotated.png"
+    }
+]

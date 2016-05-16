@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_edit_doc"
+        android:icon="@drawable/edit_case_info"
+        android:showAsAction="always"
+        android:title="@string/str_edit_information"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_add_doc"
+        android:icon="@drawable/add_document"
+        android:showAsAction="always"
+        android:title="@string/str_add_images"
+        android:visible="true"/>
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/more"
+        android:showAsAction="always"
+        android:title="@string/str_more"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/menu_change_type"
+                android:title="@string/str_change_type"
+                android:visible="true"/>
+            <item
+                android:id="@+id/menu_select"
+                android:title="@string/str_select"
+                android:visible="true">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_revert_doc"
+        android:icon="@drawable/image_revert"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_revert_images"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_delete_doc"
+        android:icon="@drawable/delete_gray"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_delete_images"
+        android:visible="false"/>
+
+</menu>

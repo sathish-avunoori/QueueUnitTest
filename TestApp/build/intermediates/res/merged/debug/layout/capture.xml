@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainparent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+            android:id="@+id/topBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent" >
+
+            <LinearLayout
+                android:id="@+id/flashParentLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="18dp"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+                <ImageView
+                    android:id="@+id/imgFlashSelected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                android:layout_gravity="top|left"
+                android:contentDescription="@string/str_empty" />
+
+                <LinearLayout
+                    android:id="@+id/flashOptionsLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:id="@+id/imgFlashAuto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                    android:contentDescription="@string/str_empty"
+                    android:paddingRight="5dp"
+                        android:src="@drawable/ic_flash_automatic" />
+
+                    <ImageView
+                        android:id="@+id/imgFlashOn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                    android:contentDescription="@string/str_empty"
+                    android:paddingRight="5dp"
+                        android:src="@drawable/ic_flash_on" />
+
+                    <ImageView
+                        android:id="@+id/imgFlashOff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                    android:contentDescription="@string/str_empty"
+                        android:src="@drawable/ic_flash_off" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/camera_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:focusableInTouchMode="true"
+                android:gravity="right"
+                android:paddingRight="18dp"
+            android:text="@string/done_text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <com.kofax.kmc.kui.uicontrols.ImageCaptureView
+            android:id="@+id/viewFinder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottombar_rl"
+            android:layout_below="@+id/topBarLayout" >
+        </com.kofax.kmc.kui.uicontrols.ImageCaptureView>
+
+        <FrameLayout
+            android:id="@+id/ivForceCaptureHintParent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/ivForceCaptureHint"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+            android:contentDescription="@string/str_empty"
+                android:gravity="center"
+                android:src="@drawable/force_capture_hint"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/viewFinder"
+            android:layout_below="@+id/topBarLayout"
+            android:layout_gravity="bottom" >
+
+            <ImageView
+                android:id="@+id/doc_preview_imagevieww"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+            android:contentDescription="@string/str_empty"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/bottombar_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/black"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Gallery
+                    android:id="@+id/cameratype_gallery_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/Gallery_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/document_gallery"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="18dp" />
+
+                <ImageView
+                    android:id="@+id/capture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                android:contentDescription="@string/str_empty"
+                    android:src="@drawable/capture_button_disabled" />
+
+                <RelativeLayout
+                    android:id="@+id/image_count_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="24dp"
+                    android:gravity="left"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:id="@+id/img_thumbnail_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                    android:contentDescription="@string/str_empty"
+                        android:scaleType="fitXY"
+                        android:visibility="visible" />
+
+						<RelativeLayout
+						    android:layout_width="wrap_content"
+						    android:layout_height="wrap_content"
+						    android:layout_alignRight="@id/img_thumbnail_view"
+						    android:layout_alignTop="@id/img_thumbnail_view" >
+						
+						    <ImageView
+						        android:id="@+id/count_imageView"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:layout_centerHorizontal="true"
+						        android:layout_centerVertical="true"
+                        android:contentDescription="@string/str_empty"
+                        android:src="@drawable/count_indicator_background" />
+						
+						    <TextView
+						        android:id="@+id/countText"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:layout_centerHorizontal="true"
+						        android:layout_centerVertical="true"
+                        android:background="@drawable/image_count_style"
+						        android:lines="1"
+                        android:textColor="#ffffffff"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+						</RelativeLayout>
+
+                </RelativeLayout>
+			</RelativeLayout>
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/quick_menu_done"
+        android:icon="@drawable/done"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_accept"
+        android:visible="false"/>
+    <!--item
+        android:id="@+id/quick_menu_accept_image"
+        android:icon="@drawable/use"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_accept"
+        android:visible="false"/-->
+    <item
+        android:id="@+id/quick_menu_delete_image"
+        android:icon="@drawable/delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_delete"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_more"
+        android:icon="@drawable/more"
+        android:showAsAction="ifRoom"
+        android:title="@string/str_more"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/quick_menu_recapture_image"
+                android:showAsAction="always"
+                android:title="@string/str_retake"
+                android:visible="false"/>
+            <item
+                android:id="@+id/quick_menu_edit_image"
+                android:showAsAction="always"
+                android:title="@string/str_edit"
+                android:visible="false"/>
+            <item
+                android:id="@+id/menu_image_feedback"
+                android:title="@string/str_image_feedback"
+                android:visible="false">
+            </item>
+             <item
+                android:id="@+id/menu_toggle_image"
+                android:title="@string/str_image_process"
+                android:visible="false">
+            </item>
+            <item
+                android:id="@+id/menu_image_revert_image"
+                android:title="@string/str_revert"
+                android:visible="false"/>
+            <item
+                android:id="@+id/menu_image_details"
+                android:title="@string/str_image_details"/>
+        </menu>
+    </item>
+
+</menu>

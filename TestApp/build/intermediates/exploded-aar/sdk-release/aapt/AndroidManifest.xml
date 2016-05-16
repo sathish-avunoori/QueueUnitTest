@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016. All rights reserved. -->
+<!-- Kofax Confidential. -->
+<!-- Unauthorized use, duplication, or distribution, or disclosure is strictly prohibited. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kofax"
+    android:versionCode="3"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <application>
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.check.CheckExtractActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.check.CheckCaptureActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.check.CheckWorkflowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.ImageReviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.ProcessActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.bill.BillExtractActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.bill.BillCaptureActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.bill.BillWorkflowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.id.IdExtractActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.id.IdCaptureActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.id.IdCaptureBackActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.id.IdWorkflowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.passport.PassportExtractActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.passport.PassportCaptureActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.passport.PassportWorkflowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.kofax.mobile.sdk.capture.creditcard.CreditCardWorkflowActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.kofax.mobile.sdk.capture.creditcard.CardIoWrapperActivity" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+
+        <meta-data
+            android:name="roboguice.annotations.packages"
+            android:value="com.kofax" />
+        <meta-data
+            android:name="roboguice.modules"
+            android:value="com.kofax.mobile.sdk.capture.MainModule" />
+    </application>
+
+</manifest>

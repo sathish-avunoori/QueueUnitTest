@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bp_base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin" 
+    android:background="@color/appbggray">
+
+    <LinearLayout
+        android:id="@+id/gc_toptextviewLL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/gc_topLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gc_toptextviewLL"
+        android:layout_gravity="center"
+        android:background="@drawable/curved_bodders"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/preview"
+            android:layout_width="220dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp" 
+            android:contentDescription="@string/str_empty" />
+
+        <TextView
+            android:id="@+id/gc_imagetextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/preview"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/tap_on_image"
+            android:textColor="@color/apptextgray"
+            android:textSize="12sp" />
+        <ImageView
+            android:id="@+id/processing_status_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/preview"
+            android:layout_alignRight="@+id/preview"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/str_empty"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gc_topLL"
+        android:layout_marginTop="45dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+			android:id="@+id/fieldsParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

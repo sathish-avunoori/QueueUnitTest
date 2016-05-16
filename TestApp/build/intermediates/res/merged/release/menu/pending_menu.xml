@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_pending_delete_doc"
+        android:icon="@drawable/delete"
+        android:showAsAction="always"
+        android:title="@string/str_delete_images"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_pending_add_doc"
+        android:icon="@drawable/add_document"
+        android:showAsAction="always"
+        android:title="@string/str_add_images"
+        android:visible="false"/>
+    <item
+        android:id="@+id/menu_pending_more"
+        android:icon="@drawable/more"
+        android:showAsAction="always"
+        android:title="@string/str_more"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/menu_pending_edit_doc"
+                android:showAsAction="always"
+                android:title="@string/str_edit_information"
+                android:visible="true"/>
+            <item
+                android:id="@+id/menu_pending_submit_doc"
+                android:showAsAction="always"
+                android:title="@string/str_submit"
+                android:visible="true"/>
+        </menu>
+    </item>
+
+</menu>
