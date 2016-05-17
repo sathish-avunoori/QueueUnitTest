@@ -76,6 +76,29 @@ dependencies {
             dirs '../libs'
         }
     }
+    def sdkRef = null
+
+    project.getRootProject().allprojects.each { proj ->
+        if (proj.name.toLowerCase().equals('sdk')) {
+            sdkRef = proj;
+            return true;
+        }
+    }
+
+    if (!sdkRef && project.hasProperty("clSdkRef")) {
+        sdkRef = clSdkRef
+    }
+
+    if (sdkRef) {
+        println "SDK present in project; using project reference as dependency"
+        jniLibsArray = []
+        compile sdkRef
+    } else {
+        println "SDK is not present in project; dependency reference"
+        jniLibsArray = ['libs']
+        repositories {
+            flatDir { dirs 'libs' }
+        }
     compile(name: 'sdk-release', ext: 'aar')
     compile fileTree(include: '*.jar', dir: '../libs')
 }
