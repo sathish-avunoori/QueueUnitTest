@@ -102,6 +102,7 @@ android {
         instrumentTest.setRoot('src/tests')
         defaultConfig{
             multiDexEnabled true
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         }
         // Move the build types to build-types/<type>
         // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
