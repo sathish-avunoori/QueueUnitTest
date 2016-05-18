@@ -26,18 +26,11 @@ dependencies {
         }
     }
 
-    def sdkRef = null
+    def sdkRef = '/Users/sathish/Library/Android/sdk'
 
-    project.getRootProject().allprojects.each { proj ->
-        if (proj.name.toLowerCase().equals('sdk')) {
-            sdkRef = proj;
-            return true;
-        }
-    }
+   
 
-    if (!sdkRef && project.hasProperty("clSdkRef")) {
-        sdkRef = clSdkRef
-    }
+
 
     if (sdkRef) {
         println "SDK present in project; using project reference as dependency"
