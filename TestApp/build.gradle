@@ -4,7 +4,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.0'
-        classpath 'com.novoda.gradle:robolectric-plugin:0.0.1-SNOPSHOT'
+        //classpath 'com.novoda.gradle:robolectric-plugin:0.0.1-SNOPSHOT'
     }
 }
 apply plugin: 'com.android.application'
@@ -57,7 +57,7 @@ dependencies {
     compile fileTree(dir: 'externalLibs', include: '*.jar')
     compile 'com.android.support:multidex:1.0.1'
     androidTestCompile 'com.android.support:multidex-instrumentation:1.0.1'
-    androidTestCompile 'org.robolectric:robolectric:2.+'
+    //androidTestCompile 'org.robolectric:robolectric:2.+'
     androidTestCompile 'junit:junit:4.12'
     compile project(':processqueue')
 }
