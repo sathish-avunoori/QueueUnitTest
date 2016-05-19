@@ -56,9 +56,9 @@ android {
         exclude 'META-INF/maven/com.google.dagger/dagger/pom.xml'
         exclude 'META-INF/MANIFEST.MF'
     }
-    //testOptions {
-     //   unitTests.returnDefaultValues = true
-   // }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
     sourceSets {
         //instrumentTest.setRoot('src/test')
         androidTest.setRoot('src/test')
