@@ -10,7 +10,8 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
-@RunWith(AndroidJUnit4.class)
+
+
 public class PriorityQueueUnitTest {
 
     PriorityQueue<QueueModel> priorityQueue;
