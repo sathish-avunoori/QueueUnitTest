@@ -77,7 +77,7 @@ dependencies {
             dirs '../libs'
         }
     }
-    def sdkRef = '/Users/sathish/Library/Android/sdk'
+    def sdkRef = null
 
     
 
@@ -102,4 +102,5 @@ dependencies {
   androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.2'
   //androidTestCompile 'org.robolectric:robolectric:2.+'
   androidTestCompile 'junit:junit:4.12'
+}
 }
