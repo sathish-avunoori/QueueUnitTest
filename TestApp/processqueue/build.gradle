@@ -87,10 +87,10 @@ dependencies {
         compile sdkRef
     } else {
         println "SDK is not present in project; dependency reference"
-        jniLibsArray = ['libs']
-        repositories {
-            flatDir { dirs 'libs' }
-        }
+        //jniLibsArray = ['libs']
+        //repositories {
+       //     flatDir { dirs 'libs' }
+       // }
     compile(name: 'sdk-release', ext: 'aar')
     compile fileTree(include: '*.jar', dir: '../libs')
     androidTestCompile 'com.android.support.test:runner:0.4'
